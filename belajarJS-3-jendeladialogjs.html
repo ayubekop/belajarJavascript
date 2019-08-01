@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dialog Alert</title>
+</head>
+
+<body>
+    <script>
+        alert("selamat datang di alert!!")
+    </script>
+
+    <button onclick="alert('udah diklik')">klik dongs</button>
+
+    <script>
+        var yakin = confirm("Apakah kamu yakin akan pergi kesana?");
+
+        if (yakin) {
+            window.location = "https://www.petanikode.com";
+        } 
+        else{
+            document.write("Disini weh lah");
+        }
+    </script>
+
+    <script>
+        var nama = prompt("Saha namina?","");
+        document.write("<p> Hellooww " + nama + "</p>")
+    </script>
+</body>
+
+</html>
